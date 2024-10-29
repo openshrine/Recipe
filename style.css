@@ -1,0 +1,89 @@
+body {
+    background-color: #f3e6d8;
+    font-family: 'Outfit', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+p,
+ul,
+table {
+    font-size: 16px;
+}
+
+.ligne {
+    height: 1px;
+    background-color: lightgrey;
+    width: 90%;
+    /* Largeur de la ligne */
+    margin: 20px auto;
+    /* Centrer la ligne */
+}
+
+.recipe-card {
+    background-color: white;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    width: 40%;
+    padding: 20px;
+}
+
+.recipe-card img {
+    width: 100%;
+    /* Image s'adapte à la largeur de la div */
+    height: auto;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'young serif', serif;
+}
+
+h2 {
+    font-family: 'Outfit', sans-serif;
+    color: #7b284f;
+}
+
+.subtitle {
+    padding-bottom: 10px;
+}
+
+.preparation-time {
+    background-color: #FFF5FA;
+    padding: 0 100px 0 100px;
+    border-radius: 20px;
+    display: block;
+}
+
+ol ::marker {
+    color: #7b284f;
+    font-weight: bold;
+}
+
+.instruction {
+    font-weight: bold;
+}
+
+/*.table-description {
+    padding-bottom: 20px;
+}*/
+
+.table {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.table td,
+.table th {
+    padding: 12px 100px;
+    border-bottom: lightgrey solid 1px;
+
+    text-align: center;
+}
+
+td ::marker {
+    color: #7b284f;
+}
